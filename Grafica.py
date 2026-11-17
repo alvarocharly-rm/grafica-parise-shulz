@@ -428,13 +428,6 @@ fig.text(
     fontsize=14
 )
 
-fig.text(
-    0.60, 0.035,
-    "Curva ilustrativa · Standby con motor encendido en descarga",
-    ha="center",
-    fontsize=10,
-    color="#555555"
-)
 
 plt.savefig(
     "diagrama_control_corregido.png",
